@@ -21,7 +21,7 @@ router
   .delete(deleteThought)
 
 router
-  .route('/userId')
+  .route('/:userId')
   .post(addThought)
 
 router
